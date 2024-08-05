@@ -78,7 +78,7 @@ const navSlider = ({slideHandle, isSlide, mail}) => {
 
             {/* NAVIGATION LINKS */}
                 <nav className='2sm:w-[60%] w-[80%] flex flex-col items-center justify-start gap-2 mt-3'>
-                    <motion.button className='w-full h-fit py-1 bg-[#555] relative rounded'
+                    <motion.button className='w-full h-fit py-1 hover:bg-[#555] relative rounded'
                         variants={scaleBig}
                         initial='hidden'
                         animate='visible'
