@@ -165,18 +165,18 @@ const Cart = () => {
                         >£2900</motion.h2>
                       </div>
 
-                      <div className='w-full flex items-center justify-between text-[17px] my-1'>
-                        <motion.h2
-                            variants={slideRight}
-                            initial='hidden'
-                            whileInView='visible'
-                            transition={{delay: 0.6}}
-                        >DELIVERY</motion.h2>
+                      <div className='w-full flex items-center justify-between text-[17px] my-1 '>
                         <motion.h2
                           variants={slideLeft}
                           initial='hidden'
                           whileInView='visible'
                           transition={{delay: 0.6}}
+                        >DELIVERY</motion.h2>
+                        <motion.h2
+                            variants={slideRight}
+                            initial='hidden'
+                            whileInView='visible'
+                            transition={{delay: 0.6}}
                         >£600</motion.h2>
                       </div>
 
