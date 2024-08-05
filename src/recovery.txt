@@ -1,0 +1,95 @@
+import { motion } from 'framer-motion'
+
+// FRAMER MOTION VARIABLES
+const slideDown = {
+    hidden: {
+        opacity: 0,
+        y: '-50'
+    },
+    visible: {
+        opacity: 1,
+        y: 0
+    }
+}
+const slideUp = {
+    hidden: {
+        opacity: 0,
+        y: 50
+    },
+    visible: {
+        opacity: 1,
+        y: 0
+    }
+}
+const slideLeft = {
+    hidden: {
+        opacity: 0,
+        x: 50
+    },
+    visible: {
+        opacity: 1,
+        x: 0
+    }
+}
+const slideRight = {
+    hidden: {
+        opacity: 0,
+        x: '-50px'
+    },
+    visible: {
+        opacity: 1,
+        x: 0
+    }
+}
+const appear = {
+    hidden: {
+        opacity: 0,
+    },
+    visible: {
+        opacity: 1,
+    }
+}
+const customSlideUp = {
+    hidden: {
+        opacity: 0,
+        y: 50
+    },
+    visible: (i) => ({
+        opacity: 1,
+        y: 0,
+        transition: {
+            delay: 0.3 * i,
+            duration: 0.4 * i
+        }
+    })
+}
+const customSlideDown = {
+    hidden: {
+        opacity: 0,
+        y: '-50'
+    },
+    visible: (i) => ({
+        opacity: 1,
+        y: 0,
+        transition: {
+            delay: 0.3 * i,
+            duration: 0.4 * i
+        }
+    })
+}
+const scaleBig = {
+    hidden: {
+        scale: 0,
+        opacity: 0
+      },
+      visible: {
+          scale: 1,
+          opacity: 1
+        }
+    }
+    // FRAMER MOTION VARIABLES
+
+                                variants={appear}
+                                initial='hidden'
+                                whileInView='visible'
+                                transition={{delay: 0.4, duration: 0.5}}
