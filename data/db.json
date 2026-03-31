@@ -1,0 +1,92 @@
+{
+  "Comic Book": [
+    {
+      "name": "amazing spider-man",
+      "studio": "marvel comic books",
+      "price": 3800,
+      "imageUrl": "https://i.pinimg.com/564x/79/17/68/7917686d287c4d0082723a6802f80e61.jpg",
+      "creation": "2024-03-29 10:00:00"
+    },
+    {
+      "name": "hot case comic",
+      "studio": "N/A",
+      "price": 2150,
+      "imageUrl": "https://i.pinimg.com/236x/80/cf/1e/80cf1e900ac20e74e6186e8aa73304e6.jpg",
+      "creation": "2024-03-29 11:00:00"
+    },
+    {
+      "name": "spider-man noir",
+      "studio": "marvel studio",
+      "price": 1980,
+      "imageUrl": "https://i.pinimg.com/236x/0a/95/64/0a956421ffe409e18d9b892f41083338.jpg",
+      "creation": "2024-03-29 12:00:00"
+    },
+    {
+      "name": "invisible woman",
+      "studio": "marvel comic",
+      "price": 3000,
+      "imageUrl": "https://i.pinimg.com/736x/99/f6/c0/99f6c0ce0f9c09dd93f93cd656e6df66.jpg",
+      "creation": "2024-03-29 13:00:00"
+    }
+  ],
+  "Order": [
+    {
+      "name": "ORD001",
+      "customer": "John Doe",
+      "total": 3800,
+      "status": "Pending"
+    },
+    {
+      "name": "ORD002",
+      "customer": "Jane Smith",
+      "total": 5150,
+      "status": "Completed"
+    }
+  ],
+  "Inquiry": [
+    {
+      "name": "INQ-1774864145583",
+      "sender": "osmondcode@gmail.com",
+      "email": "osmondcode@gmail.com",
+      "message": "cfvgvbhb",
+      "status": "Pending",
+      "creation": "2026-03-30T09:49:05.583Z"
+    },
+    {
+      "name": "INQ001",
+      "sender": "Alice Wonder",
+      "email": "alice@example.com",
+      "message": "I love your biology comics! Do you have any on genetics?",
+      "status": "Pending",
+      "creation": "2024-03-30 08:00:00"
+    },
+    {
+      "name": "INQ002",
+      "sender": "Bob Builder",
+      "email": "bob@example.com",
+      "message": "Is there a bulk discount for schools?",
+      "status": "Resolved",
+      "creation": "2024-03-30 09:00:00"
+    }
+  ],
+  "Subscriber": [
+    {
+      "name": "SUB-1774864238618",
+      "email": "osmondcode@gmail.com",
+      "status": "Subscribed",
+      "creation": "2026-03-30T09:50:38.618Z"
+    },
+    {
+      "name": "SUB-1774864206135",
+      "email": "chizaram90@gmail.com",
+      "status": "Subscribed",
+      "creation": "2026-03-30T09:50:06.135Z"
+    },
+    {
+      "name": "SUB001",
+      "email": "earlybird@example.com",
+      "status": "Subscribed",
+      "creation": "2024-03-29 14:00:00"
+    }
+  ]
+}
